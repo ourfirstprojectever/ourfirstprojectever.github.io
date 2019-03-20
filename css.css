@@ -29,6 +29,10 @@ aside, section, footer, article {
     width: 100%;
   }
 
+article {
+text-align: center;
+}
+
 header, nav {
     text-align: center;
     padding: 0px 0;
