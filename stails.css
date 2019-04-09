@@ -39,6 +39,10 @@ header, nav {
     width: 100%;
 }
 
+footer {
+  width: 1600px;
+}
+
 header{
   background-image: url(kuvia/encee.png);
   height: 600px;
