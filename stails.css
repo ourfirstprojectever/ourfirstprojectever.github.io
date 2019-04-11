@@ -22,17 +22,13 @@ body {
   justify-content: center;
 }
 
-aside, section, footer, article {
+aside, section, footer, article, nav, aside {
     text-align: center;
     padding: 0px 0;
     justify-content: center;
     background-color: black;
     width: 100%;
   }
-
-article, aside {
-  background-color: white;
-}
 
 header, nav {
     padding: 0px 0;
