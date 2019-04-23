@@ -20,6 +20,7 @@ body {
   width: 100%;
   color: white;
   justify-content: center;
+  background-color: black;
 }
 
 aside, section, footer, article, nav, aside {
@@ -73,4 +74,20 @@ header{
 
 h3{
   text-shadow:1px 1px 1px #fff;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
