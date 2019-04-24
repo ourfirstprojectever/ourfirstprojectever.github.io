@@ -11,16 +11,16 @@ body {
     'header header header header header header'
     'nav nav nav nav nav nav'
     'aside aside aside article article article'
-    'section section section article article article'
+    'aside aside aside article article article'
     'footer footer footer footer footer footer';
   grid-gap: 5px;
   padding: 0px;
   margin: 0px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   width: 100%;
-  color: white;
+  color: #7c5922;
   justify-content: center;
-  background-color: black;
+  background-color:black;
 }
 
 aside, section, footer, article, nav, aside {
@@ -38,6 +38,9 @@ header, nav {
 
 footer {
   width: 1600px;
+  background-image: url(kuvia/red.jpg);
+  background-repeat: no-repeat;
+  background-position-y: -125px;
 }
 
 header{
@@ -61,7 +64,7 @@ header{
     display: inline-block;
   }
 
-  a { color: #d0a153; }
+  a { color: #7c5922; }
   .instagram-media{margin:0 auto!important;}
 
 .navbutton {
@@ -76,6 +79,12 @@ h3{
   text-shadow:1px 1px 1px #fff;
 }
 
+H2{
+  font-size: 20px;
+  color: black;
+}
+
+
 /* Container holding the image and the text */
 .container {
   position: relative;
@@ -86,7 +95,8 @@ h3{
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: black;
+  background-color:  rgba(0, 0, 0, 0.5);
+  font-size: 20px;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
