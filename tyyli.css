@@ -10,8 +10,8 @@ body {
   grid-template-areas:
     'header header header header header header'
     'nav nav nav nav nav nav'
-    'aside aside aside article article article'
-    'aside aside aside article article article'
+    'aside aside aside aside aside aside'
+    'aside aside aside aside aside aside'
     'footer footer footer footer footer footer';
   grid-gap: 5px;
   padding: 0px;
