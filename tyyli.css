@@ -47,6 +47,10 @@ footer {
   background-position-y: -125px;
 }
 
+aside {
+  padding-bottom: 10px;
+}
+
 header{
   background-image: url(kuvia/encee.png);
   height: 600px;
@@ -86,6 +90,11 @@ h3{
 H2{
   font-size: 20px;
   color: black;
+}
+
+p {
+  text-align: justify-content;
+  margin-top: 0px;
 }
 
 
