@@ -31,6 +31,10 @@ aside, section, footer, article, nav, aside {
     width: 100%;
   }
 
+  aside {
+    text-align: left;
+  }
+
 header, nav {
     padding: 0px 0;
     width: 100%;
@@ -93,8 +97,12 @@ H2{
 }
 
 p {
-  text-align: justify-content;
-  margin-top: 0px;
+margin: 0px;
+padding: 0px;
+}
+
+img {
+  padding-right: 15px;
 }
 
 
