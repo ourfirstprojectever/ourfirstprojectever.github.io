@@ -100,6 +100,10 @@ H2{
   color: black;
 }
 
+h1 {
+  font-size: 35px;
+}
+
 p {
 margin: 0px;
 padding: 0px;
