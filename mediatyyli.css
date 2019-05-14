@@ -23,6 +23,12 @@ body {
   background-color:black;
 }
 
+h1 {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+}
+
 aside, section, footer, article, nav, aside {
     text-align: center;
     padding: 0px 0;
@@ -31,13 +37,6 @@ aside, section, footer, article, nav, aside {
     width: 100%;
   }
 
-  aside {
-    text-align: left;
-  }
-
-#kuva {
-  text-align: center;
-  }
 
 header, nav {
     padding: 0px 0;
@@ -126,3 +125,9 @@ padding: 0px;
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.imageContainer > img:hover {
+    width: 50%;
+  }
+
+  
