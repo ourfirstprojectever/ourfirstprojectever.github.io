@@ -27,6 +27,7 @@ h1 {
     margin: 0px;
     padding: 0px;
     padding-top: 15px;
+    font-size: 35px;
 }
 
 aside, section, footer, article, nav, aside {
@@ -127,7 +128,6 @@ padding: 0px;
 }
 
 .imageContainer > img:hover {
-    width: 50%;
+    width: 40%;
   }
 
-  
