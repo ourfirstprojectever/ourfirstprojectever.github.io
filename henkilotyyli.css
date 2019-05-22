@@ -23,6 +23,20 @@ body {
   background-color:black;
 }
 
+h1 {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
 aside, section, footer, article, nav, aside {
     text-align: center;
     padding: 0px 0;
@@ -31,13 +45,6 @@ aside, section, footer, article, nav, aside {
     width: 100%;
   }
 
-  aside {
-    text-align: left;
-  }
-
-#kuva {
-  text-align: left;
-  }
 
 header, nav {
     padding: 0px 0;
@@ -91,17 +98,9 @@ header{
     text-decoration: none;
 }
 
-h3{
-  text-shadow:1px 1px 1px #fff;
-}
-
 H2{
   font-size: 20px;
   color: black;
-}
-
-h1 {
-  font-size: 35px;
 }
 
 p {
@@ -122,11 +121,26 @@ padding: 0px;
 /* Bottom right text */
 .text-block {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color:  rgba(0, 0, 0, 0.7);
-  font-size: 20px;
-  color: #7c5922;
+  bottom: 880px;
+  right: 400px;
+  background-color:  rgba(0, 0, 0, 0);
+  font-size: 70px;
+  color: white;
   padding-left: 20px;
   padding-right: 20px;
+  text-shadow:  3px 3px #7c5922;
 }
+
+.imageContainer > img:hover {
+    width: 40%;
+  }
+
+  table {
+      text-align: center;
+      margin: 0px auto;
+  }
+
+  .patti {
+      padding-right: 55px;
+  }
+  
